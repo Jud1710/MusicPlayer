@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  /* === FONDOS === */
+  --bg-main: #7e9c79; /* Airy Green */
+  --bg-secondary: #cdb999; /* Refined Yellow */
+  --bg-panel: #a8a997; /* Treasure */
+  --bg-overlay: #6a6d5e; /* Antique Green */
+  --bg-dark: #4f5348; /* Northern Mystic */
+
+  /* === BOTONES === */
+  --btn-bg: #c8b48d; /* Silky Yellow */
+  --btn-hover: #aaa28f; /* Varmgrå */
+  --btn-border: #2a2a2a; /* Slate Lavender */
+  --btn-text: #2e2e2e;
+
+  /* === BORDES === */
+  --border-light: #e4e4e0;
+  --border-dark: #5b5b5b;
+  --border-black: #2a2a2a;
+  --border-muted: #9b9b9b;
+
+  /* === TEXTO === */
+  --text-main: #2a2a2a;
+  --text-muted: #6c6c6c;
+  --text-inverted: #f2f2f2;
+  --text-accent: #5f4b47; /* tono tierra triste */
+
+  /* === ACCENTOS (para links, alerts, o detalles visuales) === */
+  --accent-soft-yellow: #d3ba91; /* Refined Yellow remix */
+  --accent-lavender: #897f85; /* Slate Lavender remix */
+  --accent-green: #8b9684; /* Antique Green remix */
+
+  /* === SOMBRAS === */
+  --shadow-soft: 0 2px 6px rgba(0, 0, 0, 0.1);
+  --shadow-deep: 0 4px 12px rgba(0, 0, 0, 0.25);
+
+  /* === TRANSICIONES === */
+  --transition-default: 0.25s ease-in-out;
+
+  /* === BAR PROGRESS === */
+  --bar-progess: #ce9b49;
+
+  /* === SHADOWS INSET BOX === */
+  --shadow-inset: inset 5px 5px 0 rgba(255, 255, 255, 0.3);
+  --shadow-inset-deep: inset -5px -5px 0px rgba(0, 0, 0, 0.2);
+  /* === FONTS === */
+  --font-main: "Chakra Petch", sans-serif;
+}
+
+.chakra-petch-light {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
